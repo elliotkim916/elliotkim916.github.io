@@ -11,13 +11,13 @@
     <nav role="navigation">
       <ul>
           <li>
-            <a href="#about-me">About Me</a>
+            <a href="#about-me" class="nav-link">About Me</a>
           </li>
           <li>
-            <a href="#work">Work</a>
+            <a href="#work" class="nav-link">Work</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="nav-link">Contact</a>
           </li>
         </ul>
     </nav>
@@ -28,16 +28,19 @@
 
       <section class="bio" id="about-me">
         <h2>About Me</h2>
-          <p>I am a full stack developer with a passion for UX and design.  My love for coding comes from enjoying solving problems and seeing the ideas and entire process come to life.  I am passionate about Javascript and modern Javascript libraries, and I love using CSS as a tool to create a responsive website, clever animations, and a minimalist design to convey more.</p>
-
-          <p>My interest in software has led me to build things such as a Front End project, and most recently a full stack project using technologies including React and Node.  When I'm not coding, I am often going on a run, playing the guitar, or going on a challenging hike.  I am lifelong learner and I am always excited for a new challenge and the opportunity to learn something new.</p>
+          <p>I am a full stack developer with a passion for UX and design.  My love for coding comes from enjoying solving problems and 
+            seeing the ideas and entire process come to life.  I am passionate about Javascript and modern Javascript libraries, and 
+            I love using CSS as a tool to create a responsive website, clever animations, and a minimalist design to convey more.
+          </p>
+          <p>My interest in software has led me to build things such as a Front End project, and most recently a full stack project using 
+            technologies including React and Node.  When I'm not coding, I am often going on a run, playing the guitar, or going on a 
+            challenging hike.  I am lifelong learner and I am always excited for a new challenge and the opportunity to learn something new.
+          </p>
       </section>
 
       <section id="work">
-        <h2>Marvel Encyclopedia</h2>
-        <a href="https://marvel-encyclopedia.netlify.com/" target="_blank">View Live Site</a>
-        <p>Marvel films and television shows are being released more than ever, with more new fans on the rise. However, not every fan has 
-          read the comics and understands who each character is. Therefore, I wanted to create an application that makes it easier for 
+        <h2 class="app-title">Marvel Encyclopedia</h2>
+        <p>Marvel films and television shows are being released more than ever, with more new fans on the rise. Therefore, I wanted to create an application that makes it easier for 
           users to search for and learn about Marvel characters quickly.  This application allows users to search for their favorite 
           Marvel characters. From there, users learn who they are, what comic books they were in, what events & crossovers they were in, 
           and can save which comic books they've read or want to read in the future.
@@ -45,8 +48,13 @@
         <img
           class="screenshot"
           alt="marvel-encyclopedia-screenshot"
-          src="img/marvel-screenshot.png"
+          src="img/marvel-screenshot0.png"
         >
+        <img
+          class="screenshot"
+          alt="marvel-encyclopedia-screenshot"
+          src="img/marvel-screenshot1.png"
+      >
         <div>
           <h3>Technologies</h3>
             <ul class="tech-list">
@@ -56,12 +64,12 @@
               <li>MongoDB</li>
             </ul>
         </div>
-        <a href="https://github.com/elliotkim916/marvel_encyclopedia_client" target="_blank">View on GitHub</a>
+        <button class="button-links"><a href="https://marvel-encyclopedia.netlify.com/" target="_blank" class="links">View Live Site</a></button>
+        <button class="button-links"><a href="https://github.com/elliotkim916/marvel_encyclopedia_client" target="_blank" class="links">View on GitHub</a></button>
       </section>
 
       <section>
-        <h2>Sleeplogger</h2>
-        <a href="https://evening-tundra-36241.herokuapp.com/" target="_blank">View Live Site</a>
+        <h2 class="app-title">Sleeplogger</h2>
         <p>An application that keeps track of how much you slept and how your sleep was. Users can fill out how many hours they 
           slept, answer a simple multiple choice question regarding how they felt when they woke up, and add any additional details 
           about how their sleep was.
@@ -69,23 +77,22 @@
         <img 
           class="screenshot"
           alt="marvel-encyclopedia-screenshot"
-          src="img/sleeplogger-screenshot.png"
+          src="img/sleeplogger-screenshot0.png"
         >
         <div>
           <h3>Technologies</h3>
             <ul class="tech-list">
-              <li>JavaScript</li>
               <li>NodeJS</li>
               <li>Express</li>
               <li>MongoDB</li>
             </ul>
         </div>
-        <a href="https://github.com/elliotkim916/sleeplogger" target="_blank">View on GitHub</a>
+        <button class="button-links"><a href="https://evening-tundra-36241.herokuapp.com/" target="_blank" class="links">View Live Site</a></button>
+        <button class="button-links"><a href="https://github.com/elliotkim916/sleeplogger" target="_blank" class="links">View on GitHub</a></button>
       </section>
 
       <section>
-        <h2>Music Savor</h2>
-        <a href="https://elliotkim916.github.io/Music-Savor/" target="_blank">View Live Site</a><br>
+        <h2 class="app-title">Music Savor</h2>
         <p>An app that allows users to search for their favorite artists and discover new music that sound similar to the artists 
           they love. Users are able to learn more about their favorite artists and can purchase tickets to their next upcoming 
           performance.
@@ -93,23 +100,24 @@
         <img 
           class="screenshot" 
           alt="music-savor-screenshot" 
-          src="https://user-images.githubusercontent.com/26806013/34963020-30096fdc-f9fb-11e7-82e0-7a9f17b36446.png" 
+          src="img/musicsavor-screenshot0.png" 
         >
         <div>
           <h3>Technologies</h3>
             <ul class="tech-list">
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavaScript</li>
+              <li>Javascript</li>
               <li>jQuery</li>
             </ul>
         </div>
-        <a href="https://github.com/elliotkim916/Music-Savor" target="_blank">View on GitHub</a>
+        <button class="button-links"><a href="https://elliotkim916.github.io/Music-Savor/" target="_blank" class="links">View Live Site</a></button>
+        <button class="button-links"><a href="https://github.com/elliotkim916/Music-Savor" target="_blank" class="links">View on GitHub</a></button>
       </section>
     </main>
     <footer role="content-info" id="contact">
       <h2>Let's chat.</h2>
-      <h3>Got a project?  Get in touch and let's create something amazing together!</h3>
+      <h4>Got a project?  Get in touch and let's create something amazing together!</h4>
       <a href="mailto:elliotkim916@gmail.com" target="_top" class="contact-info">Email</a>
       <a href="https://www.linkedin.com/in/elliotkim916" target="_blank" class="contact-info">Linkedin</a>
       <a href="https://github.com/elliotkim916" target="_blank" class="contact-info">GitHub</a>

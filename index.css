@@ -5,6 +5,7 @@
 body {
   font-family: Lato;
   font-size: 17px;
+  background-color: #faf9f9;
   color: #222;
   text-align: center;
   line-height: 1.5;
@@ -12,7 +13,6 @@ body {
 
 footer {
   padding: 1% 0;
-  background-color: #aaa;
 }
 
 nav {
@@ -24,18 +24,18 @@ nav {
 }
 
 header {
-  padding-top: 250px;
-  padding-bottom: 250px;
+  padding: 275px 0px 350px 25px;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.bio {
+  padding: 165px 0px 200px 0px;
 }
 
 section {
   min-height: 200px;
   padding: 6% 0;
-  background-color: #bbb;
-}
-
-section:nth-child(even) {
-  background-color: #ddd;
 }
 
 ul {
@@ -54,16 +54,16 @@ a {
 }
 
 p {
-  padding-left: 30px;
-  padding-right: 30px;
-  max-width: 750px;
+  padding: 0px 30px 0px 30px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
 }
 
 .screenshot {
-  width: 80%;
+  width: 75%;
+  margin-top: 15px;
 }
 
 .tech-list {
@@ -71,6 +71,7 @@ p {
 }
 
 .intro {
+  text-align: left;
   font-size: 45px;
   font-family: Playfair Display;
 }
@@ -81,6 +82,28 @@ h2 {
 }
 
 .contact-info {
-  margin-left: 8px;
-  margin-right: 8px;
+  color: #222;
+  margin: 0px 8px 0px 8px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.button-links {
+  width: 150px;
+  height: 45px;
+  margin: 20px 5px 0px 5px;
+  background-color: #faf9f9;
+  color: #222;
+}
+
+.links {
+  color: #222;
+  font-family: Lato;
+  font-size: 15px;
+}
+
+.nav-link {
+  color: #222;
 }

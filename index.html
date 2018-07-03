@@ -7,14 +7,30 @@
     <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-    <nav role="navigation">Nav</nav>
+    <nav role="navigation">
+      <ul>
+          <li>
+            <a href="#profile">Profile</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+    </nav>
     <main role="main">
       <header role="banner">
-        <h1>Hero</h1>
+        <div class="intro">
+          <h1>Hi, I'm Elliot.  <br>I build websites.</h1>
+        </div>
       </header>
 
-      <section>
-        Section 1
+      <section class="bio">
+          <p>I am a full stack developer with a passion for UX and design.  My love for coding comes from enjoying solving problems and seeing the ideas and entire process come to life.  I am passionate about Javascript and modern Javascript libraries, and I love using CSS as a tool to create a responsive website, clever animations, and a minimalist design to convey more.</p>
+
+          <p>My interest in software has led me to build things such as a Front End project, and most recently a full stack project using technologies including React and Node.  When I'm not coding, I am often going on a run, playing the guitar, or going on a challenging hike.  I am lifelong learner and I am always excited for a new challenge and the opportunity to learn something new.</p>
       </section>
 
       <section>
@@ -30,5 +46,6 @@
       </section>
     </main>
     <footer role="content-info">Footer</footer>
+    <script src="index.js"></script>
   </body>
 </html>

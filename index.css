@@ -46,6 +46,7 @@ ul {
 li {
   display: inline;
   margin-right: 20px;
+  font-weight: bold;
 }
 
 a {
@@ -83,7 +84,7 @@ h2 {
 
 .contact-info {
   color: #222;
-  margin: 0px 8px 0px 8px;
+  margin: 0px 15px 0px 0px;
 }
 
 h3 {
@@ -96,14 +97,103 @@ h3 {
   margin: 20px 5px 0px 5px;
   background-color: #faf9f9;
   color: #222;
+  transition: all 0.3s ease 0s;
+}
+
+.button-links:hover {
+  background: #333;
 }
 
 .links {
   color: #222;
   font-family: Lato;
   font-size: 15px;
+  transition: all 0.3s ease 0s;
+}
+
+.links:hover {
+  color: #faf9f9;
 }
 
 .nav-link {
   color: #222;
+}
+
+footer {
+  margin: 0 auto;
+  width: 400px;
+  padding: 250px 0px 400px 15px;
+}
+
+.footer-headers {
+  text-align: left;
+}
+
+.contact {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.app-title {
+  display: inline-block;
+  position: relative;
+}
+
+.app-title:before,
+.app-title:after {
+  background: #dddedf;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+      top: 50%;
+      width: 500%;
+}
+
+.app-title:before {
+  right: 110%;
+}
+
+.app-title:after {
+  left: 110%;
+}
+
+li > .nav-link,
+.contact > .contact-info {
+  position: relative;
+  color: #222;
+  text-decoration: none;
+}
+
+li > .nav-link:hover,
+.contact > .contact-info:hover {
+  color: #222;
+}
+
+li > .nav-link:before,
+.contact > .contact-info:before {
+  content: "";
+  position: absolute;
+  margin-bottom: -3px;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #222;
+  visibility: visible;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+li > .nav-link:hover:before,
+.contact > .contact-info:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+i {
+  margin-right: 2px;
 }

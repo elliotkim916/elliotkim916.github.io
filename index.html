@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <nav role="navigation">
@@ -19,6 +20,7 @@
           <li>
             <a href="#contact" class="nav-link">Contact</a>
           </li>
+          <div class="underbar"></div>
         </ul>
     </nav>
     <main role="main">
@@ -27,7 +29,7 @@
       </header>
 
       <section class="bio" id="about-me">
-        <h2>About Me</h2>
+        <h2 class="app-title">About Me</h2>
           <p>I am a full stack developer with a passion for UX and design.  My love for coding comes from enjoying solving problems and 
             seeing the ideas and entire process come to life.  I am passionate about Javascript and modern Javascript libraries, and 
             I love using CSS as a tool to create a responsive website, clever animations, and a minimalist design to convey more.
@@ -116,12 +118,20 @@
       </section>
     </main>
     <footer role="content-info" id="contact">
-      <h2>Let's chat.</h2>
-      <h4>Got a project?  Get in touch and let's create something amazing together!</h4>
-      <a href="mailto:elliotkim916@gmail.com" target="_top" class="contact-info">Email</a>
-      <a href="https://www.linkedin.com/in/elliotkim916" target="_blank" class="contact-info">Linkedin</a>
-      <a href="https://github.com/elliotkim916" target="_blank" class="contact-info">GitHub</a>
-      <a href="file:///Users/elliotkim/Desktop/Elliot%20Kim%20Web%20Dev%20Resume.pdf" target="_blank" class="contact-info">Resume</a>
+      <div class="footer-headers">
+        <h2>Let's chat.</h2>
+        <h4>Got a project?  Get in touch and let's create something amazing together!</h4>
+      </div>
+      <div class="contact">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <a href="mailto:elliotkim916@gmail.com" target="_top" class="contact-info">Email</a>
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/elliotkim916" target="_blank" class="contact-info">Linkedin</a>
+        <i class="fa fa-github" aria-hidden="true"></i>
+        <a href="https://github.com/elliotkim916" target="_blank" class="contact-info">GitHub</a>
+        <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+        <a href="file:///Users/elliotkim/Desktop/Elliot%20Kim%20Web%20Dev%20Resume.pdf" target="_blank" class="contact-info">Resume</a>
+      </div>
     </footer>
     <script src="index.js"></script>
   </body>

@@ -9,6 +9,11 @@ body {
   color: #222;
   text-align: center;
   line-height: 1.5;
+  height: 100%;
+}
+
+main {
+  height: 100%;
 }
 
 footer {
@@ -31,11 +36,28 @@ header {
 
 .bio {
   padding: 165px 0px 200px 0px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+
+.contact {
+  text-align: left;  
+}
+
+.icon {
+  margin-bottom: 10px;
 }
 
 section {
   min-height: 200px;
-  padding: 6% 0;
+  /* padding: 6% 0; */
 }
 
 ul {
@@ -159,19 +181,19 @@ footer {
 }
 
 li > .nav-link,
-.contact > .contact-info {
+.icon > .contact-info {
   position: relative;
   color: #222;
   text-decoration: none;
 }
 
 li > .nav-link:hover,
-.contact > .contact-info:hover {
+.icon > .contact-info:hover {
   color: #222;
 }
 
 li > .nav-link:before,
-.contact > .contact-info:before {
+.icon > .contact-info:before {
   content: "";
   position: absolute;
   margin-bottom: -3px;
@@ -188,7 +210,7 @@ li > .nav-link:before,
 }
 
 li > .nav-link:hover:before,
-.contact > .contact-info:hover:before {
+.icon > .contact-info:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -196,4 +218,34 @@ li > .nav-link:hover:before,
 
 i {
   margin-right: 2px;
+}
+
+@media only screen and (max-width: 400px) {
+  .capstone {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .sleeplogger, .music-savor {
+    padding-top: 150px;
+  }
+}
+
+@media only screen and (min-width: 401px) {
+  section {
+    padding: 12% 0;
+  }
+}
+
+@media only screen and (min-width: 540px) {
+  .icon {
+    display: inline-block;
+  }
 }

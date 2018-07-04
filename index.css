@@ -4,7 +4,7 @@
 
 body {
   font-family: Lato;
-  font-size: 17px;
+  font-size: 18px;
   background-color: #faf9f9;
   color: #222;
   text-align: center;
@@ -14,10 +14,6 @@ body {
 
 main {
   height: 100%;
-}
-
-footer {
-  padding: 1% 0;
 }
 
 nav {
@@ -59,14 +55,12 @@ section {
   min-height: 200px;
 }
 
-ul {
+.nav-bar {
   list-style-type: none;
   text-align: right;
 }
 
 li {
-  display: inline;
-  margin-right: 20px;
   font-weight: bold;
 }
 
@@ -89,6 +83,7 @@ p {
 }
 
 .tech-list {
+  list-style-type: none;
   text-align: center;
 }
 
@@ -143,7 +138,7 @@ h3 {
 
 footer {
   margin: 0 auto;
-  width: 400px;
+  max-width: 410px;
   padding: 250px 0px 400px 15px;
 }
 
@@ -168,8 +163,9 @@ footer {
   display: block;
   height: 2px;
   position: absolute;
-      top: 50%;
-      width: 500%;
+    top: 50%;
+    width: 1000%;
+    width: 100vw;
 }
 
 .app-title:before {
@@ -220,7 +216,45 @@ i {
   margin-right: 2px;
 }
 
+span {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 321px) {
+  .intro {
+    font-size: 36px;
+  }
+
+  .sleeplogger, .music-savor {
+    padding-top: 150px;
+  }
+
+  .language {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+}
+
+@media only screen and (min-width: 321px) {
+  section {
+    padding: 12% 0;
+  }
+
+  .intro {
+    font-size: 36px;
+  }
+
+  .language {
+    text-align: left;
+    margin-bottom: 4px;
+  }
+}
+
 @media only screen and (max-width: 400px) {
+  .nav-item {
+    margin-bottom: 8px;
+  }
+
   .capstone {
     display: -ms-flexbox;
     display: flex;
@@ -232,20 +266,21 @@ i {
     align-items: center;
     height: 100%;
   }
-
-  .sleeplogger, .music-savor {
-    padding-top: 150px;
-  }
 }
 
 @media only screen and (min-width: 401px) {
-  section {
-    padding: 12% 0;
+  li {
+    display: inline;
+    margin-right: 20px;
   }
 }
 
 @media only screen and (min-width: 540px) {
   .icon {
     display: inline-block;
+  }
+
+  .intro {
+    font-size: 45px;
   }
 }

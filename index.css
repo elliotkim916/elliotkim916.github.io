@@ -107,29 +107,27 @@ h3 {
   font-size: 30px;
 }
 
-.button-links {
+.button-links { 
+  border-radius: none;
+  border: 1px solid #dddedf;
+  color:#333;
+  padding: .5em;
+  text-decoration: none;
   width: 150px;
-  height: 45px;
+  padding: 12px;
   margin: 20px 5px 0px 5px;
   background-color: #faf9f9;
-  color: #222;
   transition: all 0.3s ease 0s;
+  text-align: center;
+  color: #222;
+  font-family: Lato;
+  font-size: 14px;
 }
 
 .button-links:hover {
   background: #333;
-  cursor: pointer;
-}
-
-.links {
-  color: #222;
-  font-family: Lato;
-  font-size: 14px;
-  transition: all 0.3s ease 0s;
-}
-
-.links:hover {
   color: #faf9f9;
+  cursor: pointer;
 }
 
 .nav-link {
@@ -272,6 +270,10 @@ span {
   li {
     display: inline;
     margin-right: 20px;
+  }
+
+  .languages {
+    margin-bottom: 45px;
   }
 }
 

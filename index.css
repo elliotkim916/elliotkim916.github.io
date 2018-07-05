@@ -124,10 +124,12 @@ h3 {
   font-size: 14px;
 }
 
-.button-links:hover {
+.button-links:hover,
+.button-links:focus {
   background: #333;
   color: #faf9f9;
   cursor: pointer;
+  outline: none;
 }
 
 .nav-link {
@@ -162,16 +164,19 @@ footer {
   height: 2px;
   position: absolute;
     top: 50%;
-    width: 1000%;
-    width: 100vw;
+    width: 400%;
 }
-
 .app-title:before {
-  right: 110%;
+  right: 100%;
+  margin-right: 25px;
 }
-
 .app-title:after {
-  left: 110%;
+  left: 100%;
+  margin-left: 25px;
+}
+.lines {
+  overflow: hidden;
+  text-align: center;
 }
 
 li > .nav-link,
@@ -182,8 +187,11 @@ li > .nav-link,
 }
 
 li > .nav-link:hover,
-.icon > .contact-info:hover {
+.icon > .contact-info:hover,
+li > .nav-link:focus,
+.icon > .contact-info:focus {
   color: #222;
+  outline: none;
 }
 
 li > .nav-link:before,
@@ -204,7 +212,9 @@ li > .nav-link:before,
 }
 
 li > .nav-link:hover:before,
-.icon > .contact-info:hover:before {
+.icon > .contact-info:hover:before,
+li > .nav-link:focus:before,
+.icon > .contact-info:focus:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
@@ -214,8 +224,20 @@ i {
   margin-right: 2px;
 }
 
-span {
+.new-page-icon {
   margin-right: 5px;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
 }
 
 @media only screen and (max-width: 321px) {

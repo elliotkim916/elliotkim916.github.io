@@ -3,10 +3,10 @@
   <head>
     <title>Elliot Kim Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
   </head>
   <body>
     <nav role="navigation">
@@ -23,27 +23,31 @@
         <div class="underbar"></div>
       </ul>
     </nav>
+
     <main role="main">
       <header role="banner">
         <h1 class="intro">Hi, I'm Elliot.  <br>I build websites.</h1>
       </header>
 
-      <section class="bio" id="about-me">
-        <h2 class="app-title">About Me</h2>
-          <!-- <img src="img/profile.jpeg" alt="profile picture" class="profile-img"> -->
-          <p>I am a full stack developer with a passion for UX and design.  My love for coding comes from enjoying solving problems and 
-            seeing the ideas and entire process come to life.  I am passionate about Javascript and modern Javascript libraries, and 
-            I love using CSS as a tool to create a responsive website, clever animations, and a minimalist design to convey more.
-          </p>
-          <p>My interest in software has led me to build things such as a Front End project, and most recently a full stack project using 
-            technologies including React and Node which you can see down below.  When I'm not coding, I am often going on a run, playing 
-            the guitar, or going on a challenging hike.  I am a lifelong learner and I am always excited for a new challenge and the 
-            opportunity to learn something new.
-          </p>
+      <section class="bio" id="about-me" tabindex="-1">
+        <div class="lines">
+          <h2 class="app-title">About Me</h2>
+        </div>
+        <p>I am a full stack developer with a passion for UX and design.  My love for coding comes from enjoying solving problems and 
+          seeing the ideas and entire process come to life.  I am passionate about Javascript and modern Javascript libraries, and 
+          I love using CSS as a tool to create a responsive website, clever animations, and a minimalist design to convey more.
+        </p>
+        <p>My interest in software has led me to build things such as a Front End project, and most recently a full stack project using 
+          technologies including React and Node which you can see down below.  When I'm not coding, I am often going on a run, playing 
+          the guitar, or going on a challenging hike.  I am a lifelong learner and I am always excited for a new challenge and the 
+          opportunity to learn something new.
+        </p>
       </section>
 
-      <section id="work" class="marvel capstone">
-        <div class="lines"><h2 class="app-title">Marvel Encyclopedia</h2></div>
+      <section id="work" class="capstone" tabindex="-1">
+        <div class="lines">
+          <h2 class="app-title">Marvel Encyclopedia</h2>
+        </div>
         <p>Marvel films and television shows are being released more than ever, with new fans constantly on the rise. Therefore, I wanted to create an application that makes it easier for 
           users to search and learn about Marvel characters.  This application allows users to search for their favorite 
           Marvel characters and learn about who they are, what comic books they were in, and what events & crossovers they were a part of. 
@@ -72,20 +76,22 @@
           href="https://marvel-encyclopedia.netlify.com/" 
           class="button-links" 
           target="_blank">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i> View Live Site
             <span class="visuallyhidden">Opens In New Window</span>
-            <span class="new-page-icon">&#x2750;</span> View Live Site
         </a>
         <a 
           href="https://github.com/elliotkim916/marvel_encyclopedia_client" 
           class="button-links" 
           target="_blank">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i> View on GitHub
             <span class="visuallyhidden">Opens In New Window</span>
-            <span class="new-page-icon">&#x2750;</span> View on GitHub
         </a>
       </section>
 
-      <section class="sleeplogger capstone">
-        <div class="lines"><h2 class="app-title">Sleeplogger</h2></div>
+      <section class="capstone">
+        <div class="lines">
+          <h2 class="app-title">Sleeplogger</h2>
+        </div>
         <p>An application that keeps track of how much you slept and how your sleep was. Users can fill out how many hours they 
           slept, answer a simple multiple choice question regarding how they felt when they woke up, and add any additional details 
           about how their sleep was.
@@ -107,20 +113,22 @@
           href="https://evening-tundra-36241.herokuapp.com/" 
           class="button-links" 
           target="_blank">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i> View Live Site
             <span class="visuallyhidden">Opens In New Window</span>
-            <span class="new-page-icon">&#x2750;</span> View Live Site
         </a>
         <a 
           href="https://github.com/elliotkim916/sleeplogger" 
           class="button-links" 
           target="_blank">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i> View on GitHub
             <span class="visuallyhidden">Opens In New Window</span>
-            <span class="new-page-icon">&#x2750;</span> View on GitHub
         </a>
       </section>
 
-      <section class="music-savor capstone">
-        <div class="lines"><h2 class="app-title">Music Savor</h2></div>
+      <section class="capstone">
+        <div class="lines">
+          <h2 class="app-title">Music Savor</h2>
+        </div>
         <p>An app that allows users to search for their favorite artists and discover new music that sounds similar to the artists 
           they love. Users are able to learn more about their favorite artists and can purchase tickets to their next upcoming 
           performance.
@@ -143,45 +151,47 @@
           href="https://elliotkim916.github.io/Music-Savor/" 
           class="button-links" 
           target="_blank">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i> View Live Site
             <span class="visuallyhidden">Opens In New Window</span>
-            <span class="new-page-icon">&#x2750;</span> View Live Site
         </a>
         <a 
           href="https://github.com/elliotkim916/Music-Savor" 
           class="button-links" 
           target="_blank">
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i> View on GitHub
             <span class="visuallyhidden">Opens In New Window</span>
-            <span class="new-page-icon">&#x2750;</span> View on GitHub
         </a>
       </section>
+
+      <footer role="content-info" id="contact" tabindex="-1">
+          <div class="footer-items">
+            <h2>Let's chat.</h2>
+            <h4 class="footer-text">Got a project?  Get in touch and let's create something amazing together!</h4>
+
+            <div class="contact">
+              <div class="icon">
+                <i class="far fa-envelope" aria-hidden="true"></i>
+                <a href="mailto:elliotkim916@gmail.com" target="_top" class="contact-info">Email</a>
+              </div>
+              <div class="icon">
+                <i class="fab fa-linkedin" aria-hidden="true"></i>
+                <a href="https://www.linkedin.com/in/elliotkim916" target="_blank" class="contact-info">Linkedin</a>
+              </div>
+              <div class="icon">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <a href="https://github.com/elliotkim916" target="_blank" class="contact-info">GitHub</a>
+              </div>
+              <div class="icon">
+                <i class="far fa-file-pdf" aria-hidden="true"></i>
+                <a href="img/resume.pdf" target="_blank" class="contact-info">Resume</a>
+              </div>
+            </div>
+          </div>
+        </footer>
     </main>
 
-    <footer role="content-info" id="contact">
-      <div class="footer-headers">
-        <h2>Let's chat.</h2>
-        <h4 class="footer-text">Got a project?  Get in touch and let's create something amazing together!</h4>
-      </div>
-      <div class="contact">
-        <div class="icon">
-          <i class="fa fa-envelope-o" aria-hidden="true"></i>
-          <a href="mailto:elliotkim916@gmail.com" target="_top" class="contact-info">Email</a>
-        </div>
-        <div class="icon">
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-          <a href="https://www.linkedin.com/in/elliotkim916" target="_blank" class="contact-info">Linkedin</a>
-        </div>
-        <div class="icon">
-          <i class="fa fa-github" aria-hidden="true"></i>
-          <a href="https://github.com/elliotkim916" target="_blank" class="contact-info">GitHub</a>
-        </div>
-        <div class="icon">
-          <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-          <a href="img/resume.pdf" target="_blank" class="contact-info">Resume</a>
-        </div>
-      </div>
-    </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.5.1/velocity.min.js"></script>
     <script src="index.js"></script>
   </body>
 </html>

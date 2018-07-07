@@ -37,16 +37,8 @@ header {
   max-width: 400px;
 }
 
-.contact {
-  text-align: left;  
-}
-
 .icon {
   margin-bottom: 10px;
-}
-
-section {
-  min-height: 200px;
 }
 
 .nav-bar {
@@ -64,7 +56,7 @@ a {
   text-align: right;
 }
 
-p {
+.description {
   padding: 0px 30px 0px 30px;
   max-width: 1200px;
   margin-left: auto;
@@ -136,7 +128,7 @@ h3 {
   color: #222;
 }
 
-footer {
+.contact {
   margin: 0 auto;
   padding: 0px 5px 0px 25px;
   display: -ms-flexbox;
@@ -150,11 +142,11 @@ footer {
   height: 100%;
 }
 
-.footer-items {
+.contact-items {
   text-align: left;
 }
 
-.contact {
+.contact-elements {
   text-align: left;
   margin-top: 45px;
 }

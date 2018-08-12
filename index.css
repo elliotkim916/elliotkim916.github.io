@@ -37,6 +37,10 @@ header {
   max-width: 400px;
 }
 
+.down {
+  display: flex;
+}
+
 .icon {
   margin-bottom: 10px;
 }
@@ -240,6 +244,15 @@ i {
 
 [tabindex='-1']:focus {
   outline: none;
+}
+
+.fa-arrow-down {
+  font-size: 40px;
+}
+
+.arrow-down {
+  height: 100%;
+  margin-top: -350px;
 }
 
 @media only screen and (min-width: 320px) {

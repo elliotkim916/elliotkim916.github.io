@@ -247,7 +247,8 @@ i {
 }
 
 .fa-arrow-down {
-  font-size: 40px;
+  margin-top: 25px;
+  margin-left: 150px;
 }
 
 @media only screen and (min-width: 320px) {
@@ -270,15 +271,6 @@ i {
 
   .bio, .capstone {
     padding-bottom: 100px;
-  }
-
-  .arrow-down {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 10px;
-    z-index: 10;
-    margin-top: 600px;
   }
 }
 
